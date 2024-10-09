@@ -1,0 +1,23 @@
+/* Remove body padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+.services-icons{
+    color: #3fbbc0;
+}
+
+#contact .info-item i {
+  color: #3fbbc0;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px dotted color-mix(in srgb, #3fbbc0, transparent 40%);
+}
